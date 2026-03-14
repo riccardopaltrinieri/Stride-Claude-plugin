@@ -62,21 +62,6 @@ If Stride tools stop working or Claude Code reports an authentication error:
 
 ---
 
-## Logto OAuth app configuration
-
-When registering the OAuth client in your Logto tenant (`https://mqj2ap.logto.app`), use these settings:
-
-| Setting | Value |
-|---|---|
-| Application type | Single-page app (public client) |
-| Client authentication | None (no secret) |
-| Allowed redirect URIs | `http://127.0.0.1` (any port) |
-| PKCE | Required |
-
-Claude Code uses a loopback redirect (`http://127.0.0.1:{dynamic-port}/oauth/callback`) and always uses PKCE, so no client secret is needed or stored anywhere.
-
----
-
 ## Security
 
 - **No secrets in this repo.** The `clientId` in `.mcp.json` is a public identifier — it is safe to commit.
