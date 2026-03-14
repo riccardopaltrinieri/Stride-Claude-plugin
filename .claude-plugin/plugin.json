@@ -1,0 +1,6 @@
+{
+  "name": "stride-mcp",
+  "version": "1.0.0",
+  "description": "Connects Claude Code to the Stride MCP server via end-user OAuth. No secrets required — authentication is handled by Claude Code's built-in browser login flow.",
+  "author": "Stride"
+}

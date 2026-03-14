@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "stride": {
+      "type": "http",
+      "url": "https://mcp.strideapp.coach",
+      "oauth": {
+        "clientId": "YOUR_LOGTO_CLIENT_ID"
+      }
+    }
+  }
+}
