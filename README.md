@@ -1,6 +1,6 @@
 # Stride Claude Code Plugin
 
-Connects [Claude Code](https://claude.ai/code) to the [Stride](https://strideapp.coach) MCP server using end-user OAuth. No secrets, no scripts, no dependencies — authentication is handled entirely by Claude Code's built-in browser login flow.
+Connects [Claude Code](https://claude.ai/code) to the [Stride](https://stride-app.com) MCP server using end-user OAuth. No secrets, no scripts, no dependencies — authentication is handled entirely by Claude Code's built-in browser login flow.
 
 ## What this plugin does
 
